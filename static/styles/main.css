@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    display: flex;
+    border: 5px solid black;
+    width: 10em;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+}
